@@ -1,5 +1,6 @@
 FROM node:slim
 
+WORKDIR /usr/scr/app
 COPY . /usr/scr/app
 
 #RUN rm bdstart.sh

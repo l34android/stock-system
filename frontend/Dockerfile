@@ -9,6 +9,8 @@ RUN apt-get update
 # I think you need to install following 
 RUN apt-get -y install libgtkextra-dev libgconf2-dev libnss3 libasound2 libxtst-dev libxss1
 
+RUN apt-get install python3.9
+
 RUN npm install
 
 RUN npm start
